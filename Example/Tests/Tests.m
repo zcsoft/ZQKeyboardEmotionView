@@ -1,9 +1,9 @@
 //
-//  QKeyboardEmotionViewTests.m
-//  QKeyboardEmotionViewTests
+//  ZQKeyboardEmotionViewTests.m
+//  ZQKeyboardEmotionViewTests
 //
-//  Created by 285275534 on 08/20/2021.
-//  Copyright (c) 2021 285275534. All rights reserved.
+//  Created by zcsoft on 04/13/2022.
+//  Copyright (c) 2022 zcsoft. All rights reserved.
 //
 
 @import XCTest;

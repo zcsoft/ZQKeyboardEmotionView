@@ -1,16 +1,16 @@
 PODS:
-  - QKeyboardEmotionView (1.0.2)
+  - ZQKeyboardEmotionView (0.1.0)
 
 DEPENDENCIES:
-  - QKeyboardEmotionView (from `../`)
+  - ZQKeyboardEmotionView (from `../`)
 
 EXTERNAL SOURCES:
-  QKeyboardEmotionView:
+  ZQKeyboardEmotionView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QKeyboardEmotionView: f25447ebc8d7a9309f50992bb258351b7aaecc17
+  ZQKeyboardEmotionView: 9cdb6a48641ce71ad15cf684025ee0049efdf811
 
-PODFILE CHECKSUM: 13dff63cfe41bddaa376f87a925f7b904426baa2
+PODFILE CHECKSUM: ebc178b7c8a941baaab27250e6baba12ae0387b0
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3

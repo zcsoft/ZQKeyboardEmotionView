@@ -1,0 +1,6 @@
+framework module Pods_ZQKeyboardEmotionView_Example {
+  umbrella header "Pods-ZQKeyboardEmotionView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

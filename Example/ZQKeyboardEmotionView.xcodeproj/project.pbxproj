@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F701689A783456CD19E0ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		06F701689A783456CD19E0ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		277BE5409FDB6E4CAB6497FA /* Pods-ZQKeyboardEmotionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQKeyboardEmotionView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZQKeyboardEmotionView_Tests/Pods-ZQKeyboardEmotionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2DE068614E5AE630219539DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DE068614E5AE630219539DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		30E0DA39B8F2BB8468DB4756 /* Pods-ZQKeyboardEmotionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQKeyboardEmotionView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZQKeyboardEmotionView_Tests/Pods-ZQKeyboardEmotionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D7E9FE072F43BE6A9D9BA87 /* Pods-ZQKeyboardEmotionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQKeyboardEmotionView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZQKeyboardEmotionView_Example/Pods-ZQKeyboardEmotionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZQKeyboardEmotionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQKeyboardEmotionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		78CCA6A9479F4559ED676359 /* Pods-ZQKeyboardEmotionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQKeyboardEmotionView_Example.release.xcconfig"; path = "Target Support Files/Pods-ZQKeyboardEmotionView_Example/Pods-ZQKeyboardEmotionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		989528ADEDCB3A9C3EA1167E /* Pods_ZQKeyboardEmotionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQKeyboardEmotionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A21292780BDC01F129A069FC /* ZQKeyboardEmotionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZQKeyboardEmotionView.podspec; path = ../ZQKeyboardEmotionView.podspec; sourceTree = "<group>"; };
+		A21292780BDC01F129A069FC /* ZQKeyboardEmotionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZQKeyboardEmotionView.podspec; path = ../ZQKeyboardEmotionView.podspec; sourceTree = "<group>"; };
 		D2F15A1F8D237C205C1D4B31 /* Pods_ZQKeyboardEmotionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQKeyboardEmotionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				30E0DA39B8F2BB8468DB4756 /* Pods-ZQKeyboardEmotionView_Tests.debug.xcconfig */,
 				277BE5409FDB6E4CAB6497FA /* Pods-ZQKeyboardEmotionView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zcsoft;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XZB67NKL7M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 4D7E9FE072F43BE6A9D9BA87 /* Pods-ZQKeyboardEmotionView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XZB67NKL7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZQKeyboardEmotionView/ZQKeyboardEmotionView-Prefix.pch";
 				INFOPLIST_FILE = "ZQKeyboardEmotionView/ZQKeyboardEmotionView-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 78CCA6A9479F4559ED676359 /* Pods-ZQKeyboardEmotionView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XZB67NKL7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZQKeyboardEmotionView/ZQKeyboardEmotionView-Prefix.pch";
 				INFOPLIST_FILE = "ZQKeyboardEmotionView/ZQKeyboardEmotionView-Info.plist";

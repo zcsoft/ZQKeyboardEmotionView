@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zcsoft/ZQKeyboardEmotionView'
+  s.homepage         = 'https://github.com/zcsoft/ZQKeyboardEmotionView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zcsoft' => '102056474+haipercb@users.noreply.github.com' }
